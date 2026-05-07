@@ -1,0 +1,23 @@
+{
+  "skill_name": "breezz-steps",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a breezz step for Opportunity that validates the Amount field is positive before insert. If the amount is null or less than or equal to zero, block the save with an error message.",
+      "expected_output": "An OpportunityStep base class and an OpportunityAmountValidationStep concrete class using initRecordProcessing with addError, plus two .cls-meta.xml files",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need a breezz step on Contact that updates the parent Account's Description field with the count of related contacts after a contact is inserted or updated.",
+      "expected_output": "A ContactStep base class and a ContactCountUpdateStep concrete class using finishSyncProcess with getContext().addModificationToUpdate, plus two .cls-meta.xml files",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Create a breezz async step for Case that sends an email notification when a case Status is changed to 'Closed'. The email should go to the case contact's email address.",
+      "expected_output": "A CaseStep base class and a CaseClosedEmailNotificationStep concrete class using addAsyncJob in initRecordProcessing and executeAsyncProcess for sending email, plus two .cls-meta.xml files",
+      "files": []
+    }
+  ]
+}

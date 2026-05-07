@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>{{Label}}</label>
+    <protected>false</protected>
+    <values><field>forvendi__ClassName__c</field><value xsi:type="xsd:string">{{StepConfigDeveloperName}}</value></values>
+    <values><field>forvendi__ConfigurationScope__c</field><value xsi:type="xsd:string">Own</value></values>
+    <values><field>forvendi__Description__c</field><value xsi:type="xsd:string">{{Description}}</value></values>
+    <values><field>forvendi__ExecutionInterval__c</field><value xsi:type="xsd:string">10min</value></values>
+    <values><field>forvendi__FeatureAvailability__c</field><value xsi:nil="true"/></values>
+    <values><field>forvendi__IsActive__c</field><value xsi:type="xsd:boolean">true</value></values>
+    <values><field>forvendi__JobConfiguration__c</field><value xsi:type="xsd:string">{{SOQLQuery}}</value></values>
+    <values><field>forvendi__RecordConfiguration__c</field><value xsi:nil="true"/></values>
+    <values><field>forvendi__RecordLevelSecurity__c</field><value xsi:type="xsd:string">Inherited Sharing</value></values>
+    <values><field>forvendi__RelatedObject__c</field><value xsi:type="xsd:string">{{ObjectApiName}}</value></values>
+    <values><field>forvendi__Type__c</field><value xsi:type="xsd:string">StepFunction</value></values>
+</CustomMetadata>
