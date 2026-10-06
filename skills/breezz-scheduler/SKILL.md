@@ -22,6 +22,9 @@ Generate Scheduler Job implementations and their configuration metadata.
 | Text Field Cleanup | Clean text fields | No |
 | Generate UUID | Auto-generate UUIDs | No |
 | Concatenate Fields | Combine field values | No |
+| Phone Validation | Validate phone numbers | No |
+| Email Validation | Validate email addresses | No |
+| Cleanup - Batch | Delete large volumes of records | No |
 
 ## Workflow
 
