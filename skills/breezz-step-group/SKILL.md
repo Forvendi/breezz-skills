@@ -9,8 +9,8 @@ Generate Step Group step configurations using `forvendi.StepGroupStep`.
 
 ## Compatibility
 
-Works with: After Insert, After Update, After Delete, After Undelete (sync+async)
-Does NOT work with: Before Insert, Before Update (sync), Before Delete (sync), Platform Events, CDC
+Works with: After Insert, Before Update, After Update, Before Delete, After Delete, After Undelete, Platform Events, CDC
+Does NOT work with: Before Insert (sync)
 
 ## Parameters JSON Format
 

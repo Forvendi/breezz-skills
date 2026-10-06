@@ -9,8 +9,7 @@ Generate Run Flow step configurations for Autolaunched Flows using `forvendi.Ste
 
 ## Compatibility
 
-Works with: After Insert, After Update, After Delete, After Undelete (sync+async)
-Does NOT work with: Before Insert, Before Update (sync), Before Delete (sync), Platform Events, CDC
+Works with: All trigger events (Before Insert, After Insert, Before Update, After Update, Before Delete, After Delete, After Undelete, Platform Events, CDC)
 
 ## Flow Core Variables
 When executing a Flow inside a Breezz Step, the framework passes trigger context records into the Flow and expects updated records returned in a specific collection variable:
